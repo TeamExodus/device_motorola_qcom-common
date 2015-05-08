@@ -129,8 +129,8 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.sf.hw=1 \
-    debug.composition.type=dyn \
-    persist.hwc.mdpcomp.enable=true \
+    debug.composition.type=gpu \
+    debug.mdpcomp.maxlayer=0 \
     debug.mdpcomp.logs=0 \
     debug.enabletr=0
 
